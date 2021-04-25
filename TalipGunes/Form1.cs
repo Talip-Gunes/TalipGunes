@@ -24,7 +24,8 @@ namespace TalipGunes
 
             XmlDocument i = new XmlDocument();
         DataSet ds = new DataSet();
-       
+        string url = "https://www.aa.com.tr/tr/rss/default?cat=guncel";
+        
         private void button1_Click(object sender, EventArgs e)
         {
 
