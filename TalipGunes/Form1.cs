@@ -21,7 +21,11 @@ namespace TalipGunes
         private void timer1_Tick(object sender, EventArgs e)
         
             MessageBox.Show("deneme");
-private void button1_Click(object sender, EventArgs e)
+
+            XmlDocument i = new XmlDocument();
+        DataSet ds = new DataSet();
+       
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
