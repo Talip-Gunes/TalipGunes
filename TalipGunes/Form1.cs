@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace TalipGunes
 {
@@ -19,7 +20,11 @@ namespace TalipGunes
 
         private void timer1_Tick(object sender, EventArgs e)
         
-            Message.box("deneme");
+            MessageBox.Show("deneme");
+private void button1_Click(object sender, EventArgs e)
+        {
+
         }
+    }
     }
 }
